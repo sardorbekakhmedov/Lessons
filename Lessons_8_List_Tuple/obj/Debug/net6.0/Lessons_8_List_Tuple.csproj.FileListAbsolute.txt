@@ -1,0 +1,15 @@
+C:\C#\Lessons\Lessons_8_List_Tuple\bin\Debug\net6.0\Lessons_8_List_Tuple.exe
+C:\C#\Lessons\Lessons_8_List_Tuple\bin\Debug\net6.0\Lessons_8_List_Tuple.deps.json
+C:\C#\Lessons\Lessons_8_List_Tuple\bin\Debug\net6.0\Lessons_8_List_Tuple.runtimeconfig.json
+C:\C#\Lessons\Lessons_8_List_Tuple\bin\Debug\net6.0\Lessons_8_List_Tuple.dll
+C:\C#\Lessons\Lessons_8_List_Tuple\bin\Debug\net6.0\Lessons_8_List_Tuple.pdb
+C:\C#\Lessons\Lessons_8_List_Tuple\obj\Debug\net6.0\Lessons_8_List_Tuple.csproj.AssemblyReference.cache
+C:\C#\Lessons\Lessons_8_List_Tuple\obj\Debug\net6.0\Lessons_8_List_Tuple.GeneratedMSBuildEditorConfig.editorconfig
+C:\C#\Lessons\Lessons_8_List_Tuple\obj\Debug\net6.0\Lessons_8_List_Tuple.AssemblyInfoInputs.cache
+C:\C#\Lessons\Lessons_8_List_Tuple\obj\Debug\net6.0\Lessons_8_List_Tuple.AssemblyInfo.cs
+C:\C#\Lessons\Lessons_8_List_Tuple\obj\Debug\net6.0\Lessons_8_List_Tuple.csproj.CoreCompileInputs.cache
+C:\C#\Lessons\Lessons_8_List_Tuple\obj\Debug\net6.0\Lessons_8_List_Tuple.dll
+C:\C#\Lessons\Lessons_8_List_Tuple\obj\Debug\net6.0\refint\Lessons_8_List_Tuple.dll
+C:\C#\Lessons\Lessons_8_List_Tuple\obj\Debug\net6.0\Lessons_8_List_Tuple.pdb
+C:\C#\Lessons\Lessons_8_List_Tuple\obj\Debug\net6.0\Lessons_8_List_Tuple.genruntimeconfig.cache
+C:\C#\Lessons\Lessons_8_List_Tuple\obj\Debug\net6.0\ref\Lessons_8_List_Tuple.dll

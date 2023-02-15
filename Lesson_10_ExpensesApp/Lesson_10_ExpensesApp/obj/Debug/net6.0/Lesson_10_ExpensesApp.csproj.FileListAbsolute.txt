@@ -1,0 +1,15 @@
+C:\C#\Lessons\Lesson_10_ExpensesApp\Lesson_10_ExpensesApp\bin\Debug\net6.0\Lesson_10_ExpensesApp.exe
+C:\C#\Lessons\Lesson_10_ExpensesApp\Lesson_10_ExpensesApp\bin\Debug\net6.0\Lesson_10_ExpensesApp.deps.json
+C:\C#\Lessons\Lesson_10_ExpensesApp\Lesson_10_ExpensesApp\bin\Debug\net6.0\Lesson_10_ExpensesApp.runtimeconfig.json
+C:\C#\Lessons\Lesson_10_ExpensesApp\Lesson_10_ExpensesApp\bin\Debug\net6.0\Lesson_10_ExpensesApp.dll
+C:\C#\Lessons\Lesson_10_ExpensesApp\Lesson_10_ExpensesApp\bin\Debug\net6.0\Lesson_10_ExpensesApp.pdb
+C:\C#\Lessons\Lesson_10_ExpensesApp\Lesson_10_ExpensesApp\obj\Debug\net6.0\Lesson_10_ExpensesApp.csproj.AssemblyReference.cache
+C:\C#\Lessons\Lesson_10_ExpensesApp\Lesson_10_ExpensesApp\obj\Debug\net6.0\Lesson_10_ExpensesApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\C#\Lessons\Lesson_10_ExpensesApp\Lesson_10_ExpensesApp\obj\Debug\net6.0\Lesson_10_ExpensesApp.AssemblyInfoInputs.cache
+C:\C#\Lessons\Lesson_10_ExpensesApp\Lesson_10_ExpensesApp\obj\Debug\net6.0\Lesson_10_ExpensesApp.AssemblyInfo.cs
+C:\C#\Lessons\Lesson_10_ExpensesApp\Lesson_10_ExpensesApp\obj\Debug\net6.0\Lesson_10_ExpensesApp.csproj.CoreCompileInputs.cache
+C:\C#\Lessons\Lesson_10_ExpensesApp\Lesson_10_ExpensesApp\obj\Debug\net6.0\Lesson_10_ExpensesApp.dll
+C:\C#\Lessons\Lesson_10_ExpensesApp\Lesson_10_ExpensesApp\obj\Debug\net6.0\refint\Lesson_10_ExpensesApp.dll
+C:\C#\Lessons\Lesson_10_ExpensesApp\Lesson_10_ExpensesApp\obj\Debug\net6.0\Lesson_10_ExpensesApp.pdb
+C:\C#\Lessons\Lesson_10_ExpensesApp\Lesson_10_ExpensesApp\obj\Debug\net6.0\Lesson_10_ExpensesApp.genruntimeconfig.cache
+C:\C#\Lessons\Lesson_10_ExpensesApp\Lesson_10_ExpensesApp\obj\Debug\net6.0\ref\Lesson_10_ExpensesApp.dll
