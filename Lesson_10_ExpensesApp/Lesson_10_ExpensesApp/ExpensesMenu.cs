@@ -2,6 +2,7 @@
 {
     public void MinMenu()
     {
+        
         Console.WriteLine();
         Console.WriteLine("\t\t||========== << MAIN MENU >> ===========||");
         Console.WriteLine("\t\t|| 1. Sign Up                           ||");

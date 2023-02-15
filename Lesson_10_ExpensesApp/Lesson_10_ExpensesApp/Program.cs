@@ -137,8 +137,17 @@ void Conculate()
     foreach (var user in users)
     {
         var userSum = expenses.Where(ex => ex.UserLogin == user.Login).Sum(ex => ex.ProductPrice);
+        var dif = avarageSumma - userSum;
 
-        Console.WriteLine($"User login: {user.Login},  User sum: {userSum},  Price difference: {avarageSumma - userSum}");
+        if (dif < 0)
+        {
+            Console.Write($"User login: {user.Login},  User sum: {userSum} price difference: ");
+            assistantFunctions.ColorTextRed(dif.ToString());
+
+        }
+        else
+            Console.WriteLine($"User login: {user.Login},  User sum: {userSum},  Price difference: {dif}");
+
     }
     defaultColor = Console.BackgroundColor;
 }
