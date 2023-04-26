@@ -1,0 +1,77 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Lesson_12_Outlay_TelegramBot/1.0.0": {
+        "dependencies": {
+          "JFA.Telegram.Console": "1.0.2"
+        },
+        "runtime": {
+          "Lesson_12_Outlay_TelegramBot.dll": {}
+        }
+      },
+      "JFA.Telegram.Console/1.0.2": {
+        "dependencies": {
+          "Telegram.Bot": "18.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/JFA.Telegram.Console.dll": {
+            "assemblyVersion": "1.0.2.0",
+            "fileVersion": "1.0.2.0"
+          }
+        }
+      },
+      "Newtonsoft.Json/12.0.2": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.2.23222"
+          }
+        }
+      },
+      "Telegram.Bot/18.0.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.2"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Telegram.Bot.dll": {
+            "assemblyVersion": "18.0.0.0",
+            "fileVersion": "18.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Lesson_12_Outlay_TelegramBot/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "JFA.Telegram.Console/1.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-DSawUWSY0ym598vWvCJHprpNI+RVWgYgl3+Nj0TkSq4hqCB4Q1GKcX+X156ciB/DagYt39tMoywH8+54ik2nzw==",
+      "path": "jfa.telegram.console/1.0.2",
+      "hashPath": "jfa.telegram.console.1.0.2.nupkg.sha512"
+    },
+    "Newtonsoft.Json/12.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rTK0s2EKlfHsQsH6Yx2smvcTCeyoDNgCW7FEYyV01drPlh2T243PR2DiDXqtC5N4GDm4Ma/lkxfW5a/4793vbA==",
+      "path": "newtonsoft.json/12.0.2",
+      "hashPath": "newtonsoft.json.12.0.2.nupkg.sha512"
+    },
+    "Telegram.Bot/18.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-BD0UchUXINymCGS+1O1tv2enCRyv+VbSJQAgfnueTZs3j7K4XXyJyW0CgyJleTrqB1oq1hS1ux6gBpi3Ajp+ZQ==",
+      "path": "telegram.bot/18.0.0",
+      "hashPath": "telegram.bot.18.0.0.nupkg.sha512"
+    }
+  }
+}

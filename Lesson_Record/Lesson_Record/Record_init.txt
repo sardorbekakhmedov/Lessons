@@ -1,0 +1,22 @@
+﻿
+
+var user3 = new User3();
+user3.Show();
+
+record User2(string name, int id,  int age) : User1(id, name);
+// 1 ==== 1 
+class UserClass
+{
+    public int Id { get; init; }
+    public string Name { get; init; }
+    public int Age { get; init; }
+}
+
+record User1(int id, string name);
+record User3()
+{
+    public void Show()
+    {
+        Console.WriteLine("Hello");
+    }
+}

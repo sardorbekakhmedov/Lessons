@@ -1,0 +1,15 @@
+C:\C#\Lessons\Lesson_14_\Lesson_14_\bin\Debug\net6.0\Lesson_14_.exe
+C:\C#\Lessons\Lesson_14_\Lesson_14_\bin\Debug\net6.0\Lesson_14_.deps.json
+C:\C#\Lessons\Lesson_14_\Lesson_14_\bin\Debug\net6.0\Lesson_14_.runtimeconfig.json
+C:\C#\Lessons\Lesson_14_\Lesson_14_\bin\Debug\net6.0\Lesson_14_.dll
+C:\C#\Lessons\Lesson_14_\Lesson_14_\bin\Debug\net6.0\Lesson_14_.pdb
+C:\C#\Lessons\Lesson_14_\Lesson_14_\obj\Debug\net6.0\Lesson_14_.csproj.AssemblyReference.cache
+C:\C#\Lessons\Lesson_14_\Lesson_14_\obj\Debug\net6.0\Lesson_14_.GeneratedMSBuildEditorConfig.editorconfig
+C:\C#\Lessons\Lesson_14_\Lesson_14_\obj\Debug\net6.0\Lesson_14_.AssemblyInfoInputs.cache
+C:\C#\Lessons\Lesson_14_\Lesson_14_\obj\Debug\net6.0\Lesson_14_.AssemblyInfo.cs
+C:\C#\Lessons\Lesson_14_\Lesson_14_\obj\Debug\net6.0\Lesson_14_.csproj.CoreCompileInputs.cache
+C:\C#\Lessons\Lesson_14_\Lesson_14_\obj\Debug\net6.0\Lesson_14_.dll
+C:\C#\Lessons\Lesson_14_\Lesson_14_\obj\Debug\net6.0\refint\Lesson_14_.dll
+C:\C#\Lessons\Lesson_14_\Lesson_14_\obj\Debug\net6.0\Lesson_14_.pdb
+C:\C#\Lessons\Lesson_14_\Lesson_14_\obj\Debug\net6.0\Lesson_14_.genruntimeconfig.cache
+C:\C#\Lessons\Lesson_14_\Lesson_14_\obj\Debug\net6.0\ref\Lesson_14_.dll

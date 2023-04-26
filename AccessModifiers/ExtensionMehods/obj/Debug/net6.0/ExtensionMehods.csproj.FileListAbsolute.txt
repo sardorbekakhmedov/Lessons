@@ -1,0 +1,15 @@
+C:\C#\Lessons\AccessModifiers\ExtensionMehods\bin\Debug\net6.0\ExtensionMehods.exe
+C:\C#\Lessons\AccessModifiers\ExtensionMehods\bin\Debug\net6.0\ExtensionMehods.deps.json
+C:\C#\Lessons\AccessModifiers\ExtensionMehods\bin\Debug\net6.0\ExtensionMehods.runtimeconfig.json
+C:\C#\Lessons\AccessModifiers\ExtensionMehods\bin\Debug\net6.0\ExtensionMehods.dll
+C:\C#\Lessons\AccessModifiers\ExtensionMehods\bin\Debug\net6.0\ExtensionMehods.pdb
+C:\C#\Lessons\AccessModifiers\ExtensionMehods\obj\Debug\net6.0\ExtensionMehods.csproj.AssemblyReference.cache
+C:\C#\Lessons\AccessModifiers\ExtensionMehods\obj\Debug\net6.0\ExtensionMehods.GeneratedMSBuildEditorConfig.editorconfig
+C:\C#\Lessons\AccessModifiers\ExtensionMehods\obj\Debug\net6.0\ExtensionMehods.AssemblyInfoInputs.cache
+C:\C#\Lessons\AccessModifiers\ExtensionMehods\obj\Debug\net6.0\ExtensionMehods.AssemblyInfo.cs
+C:\C#\Lessons\AccessModifiers\ExtensionMehods\obj\Debug\net6.0\ExtensionMehods.csproj.CoreCompileInputs.cache
+C:\C#\Lessons\AccessModifiers\ExtensionMehods\obj\Debug\net6.0\ExtensionMehods.dll
+C:\C#\Lessons\AccessModifiers\ExtensionMehods\obj\Debug\net6.0\refint\ExtensionMehods.dll
+C:\C#\Lessons\AccessModifiers\ExtensionMehods\obj\Debug\net6.0\ExtensionMehods.pdb
+C:\C#\Lessons\AccessModifiers\ExtensionMehods\obj\Debug\net6.0\ExtensionMehods.genruntimeconfig.cache
+C:\C#\Lessons\AccessModifiers\ExtensionMehods\obj\Debug\net6.0\ref\ExtensionMehods.dll

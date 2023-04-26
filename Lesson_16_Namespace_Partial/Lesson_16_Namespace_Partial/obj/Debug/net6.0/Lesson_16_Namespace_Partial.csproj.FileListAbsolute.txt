@@ -1,0 +1,15 @@
+C:\C#\Lessons\Lesson_16_Namespace_Partial\Lesson_16_Namespace_Partial\bin\Debug\net6.0\Lesson_16_Namespace_Partial.exe
+C:\C#\Lessons\Lesson_16_Namespace_Partial\Lesson_16_Namespace_Partial\bin\Debug\net6.0\Lesson_16_Namespace_Partial.deps.json
+C:\C#\Lessons\Lesson_16_Namespace_Partial\Lesson_16_Namespace_Partial\bin\Debug\net6.0\Lesson_16_Namespace_Partial.runtimeconfig.json
+C:\C#\Lessons\Lesson_16_Namespace_Partial\Lesson_16_Namespace_Partial\bin\Debug\net6.0\Lesson_16_Namespace_Partial.dll
+C:\C#\Lessons\Lesson_16_Namespace_Partial\Lesson_16_Namespace_Partial\bin\Debug\net6.0\Lesson_16_Namespace_Partial.pdb
+C:\C#\Lessons\Lesson_16_Namespace_Partial\Lesson_16_Namespace_Partial\obj\Debug\net6.0\Lesson_16_Namespace_Partial.csproj.AssemblyReference.cache
+C:\C#\Lessons\Lesson_16_Namespace_Partial\Lesson_16_Namespace_Partial\obj\Debug\net6.0\Lesson_16_Namespace_Partial.GeneratedMSBuildEditorConfig.editorconfig
+C:\C#\Lessons\Lesson_16_Namespace_Partial\Lesson_16_Namespace_Partial\obj\Debug\net6.0\Lesson_16_Namespace_Partial.AssemblyInfoInputs.cache
+C:\C#\Lessons\Lesson_16_Namespace_Partial\Lesson_16_Namespace_Partial\obj\Debug\net6.0\Lesson_16_Namespace_Partial.AssemblyInfo.cs
+C:\C#\Lessons\Lesson_16_Namespace_Partial\Lesson_16_Namespace_Partial\obj\Debug\net6.0\Lesson_16_Namespace_Partial.csproj.CoreCompileInputs.cache
+C:\C#\Lessons\Lesson_16_Namespace_Partial\Lesson_16_Namespace_Partial\obj\Debug\net6.0\Lesson_16_Namespace_Partial.dll
+C:\C#\Lessons\Lesson_16_Namespace_Partial\Lesson_16_Namespace_Partial\obj\Debug\net6.0\refint\Lesson_16_Namespace_Partial.dll
+C:\C#\Lessons\Lesson_16_Namespace_Partial\Lesson_16_Namespace_Partial\obj\Debug\net6.0\Lesson_16_Namespace_Partial.pdb
+C:\C#\Lessons\Lesson_16_Namespace_Partial\Lesson_16_Namespace_Partial\obj\Debug\net6.0\Lesson_16_Namespace_Partial.genruntimeconfig.cache
+C:\C#\Lessons\Lesson_16_Namespace_Partial\Lesson_16_Namespace_Partial\obj\Debug\net6.0\ref\Lesson_16_Namespace_Partial.dll

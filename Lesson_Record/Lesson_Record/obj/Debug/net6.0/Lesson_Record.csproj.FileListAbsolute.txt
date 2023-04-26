@@ -1,0 +1,15 @@
+C:\C#\Lessons\Lesson_Record\Lesson_Record\bin\Debug\net6.0\Lesson_Record.exe
+C:\C#\Lessons\Lesson_Record\Lesson_Record\bin\Debug\net6.0\Lesson_Record.deps.json
+C:\C#\Lessons\Lesson_Record\Lesson_Record\bin\Debug\net6.0\Lesson_Record.runtimeconfig.json
+C:\C#\Lessons\Lesson_Record\Lesson_Record\bin\Debug\net6.0\Lesson_Record.dll
+C:\C#\Lessons\Lesson_Record\Lesson_Record\bin\Debug\net6.0\Lesson_Record.pdb
+C:\C#\Lessons\Lesson_Record\Lesson_Record\obj\Debug\net6.0\Lesson_Record.csproj.AssemblyReference.cache
+C:\C#\Lessons\Lesson_Record\Lesson_Record\obj\Debug\net6.0\Lesson_Record.GeneratedMSBuildEditorConfig.editorconfig
+C:\C#\Lessons\Lesson_Record\Lesson_Record\obj\Debug\net6.0\Lesson_Record.AssemblyInfoInputs.cache
+C:\C#\Lessons\Lesson_Record\Lesson_Record\obj\Debug\net6.0\Lesson_Record.AssemblyInfo.cs
+C:\C#\Lessons\Lesson_Record\Lesson_Record\obj\Debug\net6.0\Lesson_Record.csproj.CoreCompileInputs.cache
+C:\C#\Lessons\Lesson_Record\Lesson_Record\obj\Debug\net6.0\Lesson_Record.dll
+C:\C#\Lessons\Lesson_Record\Lesson_Record\obj\Debug\net6.0\refint\Lesson_Record.dll
+C:\C#\Lessons\Lesson_Record\Lesson_Record\obj\Debug\net6.0\Lesson_Record.pdb
+C:\C#\Lessons\Lesson_Record\Lesson_Record\obj\Debug\net6.0\Lesson_Record.genruntimeconfig.cache
+C:\C#\Lessons\Lesson_Record\Lesson_Record\obj\Debug\net6.0\ref\Lesson_Record.dll

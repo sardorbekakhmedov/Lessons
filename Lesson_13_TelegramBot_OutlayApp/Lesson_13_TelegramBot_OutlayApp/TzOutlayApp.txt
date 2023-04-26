@@ -1,0 +1,48 @@
+﻿
+
+								Xarajat bot
+
+class User
+{
+    public long ChatId { get; set; }
+    public string? Name { get; set; }
+    public ENextMessage NextMessage { get; set; }
+    public Outlay? CurrentAddingOutlay { get; set; }
+    public Room CurrentRoom { get; set; }
+}
+
+
+
+	Tizimga kirish
+		enter name
+
+
+		MENU
+			Created room
+			Join room
+
+
+		CREATED ROOM
+			AddOutlay
+			ShowOutlay
+			Canculate
+			Exit
+
+				
+		JOIN ROOM
+			AddOutlay
+			ShowOutlay
+			Canculate
+			Exit
+
+			
+		
+
+
+
+
+
+
+
+
+

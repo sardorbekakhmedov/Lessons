@@ -1,0 +1,40 @@
+﻿
+
+        public void AnimalMEthods()
+        { 
+        // Bird bird = new Animal();  // Not is working
+        // Elephant elephant = new Animal();  // Not is working
+
+        Animal bird = new Bird();
+
+        Animal Elephant = new Elephant();
+
+        Bird eagle = new Eagle();
+
+        eagle = new Bird();
+
+
+
+        class Animal
+        {
+            public string Name { get; set; }
+            public string Legs { get; set; }
+        }
+
+        class Elephant : Animal
+        {
+            public int HArtumLength { get; set; }
+        }
+
+
+        class Bird : Animal
+        {
+            public int WingLength { get; set; }
+        }
+
+        class Eagle : Bird
+        {
+            public void Eat() { }
+
+        }
+   

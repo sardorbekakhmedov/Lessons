@@ -1,0 +1,15 @@
+C:\C#\Lessons\Lesson_9_Struct_QuizApp\Lesson_11_Class_Qiuzapp\bin\Debug\net6.0\Lesson_9_Class_Qiuzapp.exe
+C:\C#\Lessons\Lesson_9_Struct_QuizApp\Lesson_11_Class_Qiuzapp\bin\Debug\net6.0\Lesson_9_Class_Qiuzapp.deps.json
+C:\C#\Lessons\Lesson_9_Struct_QuizApp\Lesson_11_Class_Qiuzapp\bin\Debug\net6.0\Lesson_9_Class_Qiuzapp.runtimeconfig.json
+C:\C#\Lessons\Lesson_9_Struct_QuizApp\Lesson_11_Class_Qiuzapp\bin\Debug\net6.0\Lesson_9_Class_Qiuzapp.dll
+C:\C#\Lessons\Lesson_9_Struct_QuizApp\Lesson_11_Class_Qiuzapp\bin\Debug\net6.0\Lesson_9_Class_Qiuzapp.pdb
+C:\C#\Lessons\Lesson_9_Struct_QuizApp\Lesson_11_Class_Qiuzapp\obj\Debug\net6.0\Lesson_9_Class_Qiuzapp.csproj.AssemblyReference.cache
+C:\C#\Lessons\Lesson_9_Struct_QuizApp\Lesson_11_Class_Qiuzapp\obj\Debug\net6.0\Lesson_9_Class_Qiuzapp.GeneratedMSBuildEditorConfig.editorconfig
+C:\C#\Lessons\Lesson_9_Struct_QuizApp\Lesson_11_Class_Qiuzapp\obj\Debug\net6.0\Lesson_9_Class_Qiuzapp.AssemblyInfoInputs.cache
+C:\C#\Lessons\Lesson_9_Struct_QuizApp\Lesson_11_Class_Qiuzapp\obj\Debug\net6.0\Lesson_9_Class_Qiuzapp.AssemblyInfo.cs
+C:\C#\Lessons\Lesson_9_Struct_QuizApp\Lesson_11_Class_Qiuzapp\obj\Debug\net6.0\Lesson_9_Class_Qiuzapp.csproj.CoreCompileInputs.cache
+C:\C#\Lessons\Lesson_9_Struct_QuizApp\Lesson_11_Class_Qiuzapp\obj\Debug\net6.0\Lesson_9_Class_Qiuzapp.dll
+C:\C#\Lessons\Lesson_9_Struct_QuizApp\Lesson_11_Class_Qiuzapp\obj\Debug\net6.0\refint\Lesson_9_Class_Qiuzapp.dll
+C:\C#\Lessons\Lesson_9_Struct_QuizApp\Lesson_11_Class_Qiuzapp\obj\Debug\net6.0\Lesson_9_Class_Qiuzapp.pdb
+C:\C#\Lessons\Lesson_9_Struct_QuizApp\Lesson_11_Class_Qiuzapp\obj\Debug\net6.0\Lesson_9_Class_Qiuzapp.genruntimeconfig.cache
+C:\C#\Lessons\Lesson_9_Struct_QuizApp\Lesson_11_Class_Qiuzapp\obj\Debug\net6.0\ref\Lesson_9_Class_Qiuzapp.dll

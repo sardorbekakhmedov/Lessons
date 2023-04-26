@@ -1,0 +1,14 @@
+C:\C#\Lessons\Lesson53_DbConstraint\EFCore.Data\bin\Debug\net6.0\EFCore.Data.deps.json
+C:\C#\Lessons\Lesson53_DbConstraint\EFCore.Data\bin\Debug\net6.0\EFCore.Data.runtimeconfig.json
+C:\C#\Lessons\Lesson53_DbConstraint\EFCore.Data\bin\Debug\net6.0\EFCore.Data.dll
+C:\C#\Lessons\Lesson53_DbConstraint\EFCore.Data\bin\Debug\net6.0\EFCore.Data.pdb
+C:\C#\Lessons\Lesson53_DbConstraint\EFCore.Data\obj\Debug\net6.0\EFCore.Data.csproj.AssemblyReference.cache
+C:\C#\Lessons\Lesson53_DbConstraint\EFCore.Data\obj\Debug\net6.0\EFCore.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\C#\Lessons\Lesson53_DbConstraint\EFCore.Data\obj\Debug\net6.0\EFCore.Data.AssemblyInfoInputs.cache
+C:\C#\Lessons\Lesson53_DbConstraint\EFCore.Data\obj\Debug\net6.0\EFCore.Data.AssemblyInfo.cs
+C:\C#\Lessons\Lesson53_DbConstraint\EFCore.Data\obj\Debug\net6.0\EFCore.Data.csproj.CoreCompileInputs.cache
+C:\C#\Lessons\Lesson53_DbConstraint\EFCore.Data\obj\Debug\net6.0\EFCore.Data.dll
+C:\C#\Lessons\Lesson53_DbConstraint\EFCore.Data\obj\Debug\net6.0\refint\EFCore.Data.dll
+C:\C#\Lessons\Lesson53_DbConstraint\EFCore.Data\obj\Debug\net6.0\EFCore.Data.pdb
+C:\C#\Lessons\Lesson53_DbConstraint\EFCore.Data\obj\Debug\net6.0\EFCore.Data.genruntimeconfig.cache
+C:\C#\Lessons\Lesson53_DbConstraint\EFCore.Data\obj\Debug\net6.0\ref\EFCore.Data.dll

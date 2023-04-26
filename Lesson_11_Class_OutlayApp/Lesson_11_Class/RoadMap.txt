@@ -1,0 +1,26 @@
+﻿
+class User  // foydalanuvchilar
+
+class Outlay // xarajat
+
+
+  Menu
+
+     1 Sign Up
+     2 Sign In   // User class
+     3 Show users  // List<User>
+     4 Exit
+           
+           1. Sign Up
+                login
+                password
+
+
+
+                   2.  Sign IN
+
+                        1. Add expenses                      
+                        2. Show expenses                     
+                        3. Conculate                       
+                        4. Come back   
+

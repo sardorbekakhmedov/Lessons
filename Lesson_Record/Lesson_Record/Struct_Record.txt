@@ -1,0 +1,25 @@
+﻿
+
+
+
+
+var user3 = new User3();
+user3.Show();
+
+record struct User2(string name, int id, int age) // no inheret : User1(id, name);
+// 1 ==== 1 
+struct UserClass
+{
+    public int Id { get; init; }
+    public string Name { get; init; }
+    public int Age { get; init; }
+}
+
+record struct User1(int id, string name);
+record struct User3()
+{
+    public void Show()
+    {
+        Console.WriteLine("Hello");
+    }
+}

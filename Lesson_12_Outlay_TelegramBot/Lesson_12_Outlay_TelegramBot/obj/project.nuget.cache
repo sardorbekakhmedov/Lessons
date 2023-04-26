@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "QgEeR3+iSRusZRfOaEZEar8oXdbYS+AOhVoYo33WCLLtahr/saSXhV312EQQGI1PUIaH+Vwz2BdbNOgLauagMQ==",
+  "success": true,
+  "projectFilePath": "C:\\C#\\Lessons\\Lesson_12_Outlay_TelegramBot\\Lesson_12_Outlay_TelegramBot\\Lesson_12_Outlay_TelegramBot.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\sardo\\.nuget\\packages\\jfa.telegram.console\\1.0.2\\jfa.telegram.console.1.0.2.nupkg.sha512",
+    "C:\\Users\\sardo\\.nuget\\packages\\newtonsoft.json\\12.0.2\\newtonsoft.json.12.0.2.nupkg.sha512",
+    "C:\\Users\\sardo\\.nuget\\packages\\telegram.bot\\18.0.0\\telegram.bot.18.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

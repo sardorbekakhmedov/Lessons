@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Lesson_16_Namespace_Partial/1.0.0": {
+        "runtime": {
+          "Lesson_16_Namespace_Partial.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Lesson_16_Namespace_Partial/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

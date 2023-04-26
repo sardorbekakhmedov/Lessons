@@ -1,0 +1,249 @@
+﻿using JFA.Telegram.Console;
+using System.Globalization;
+using Telegram.Bot;
+using Telegram.Bot.Types;
+using Telegram.Bot.Types.Enums;
+using Telegram.Bot.Types.ReplyMarkups;
+
+var users = new List<User>();
+var rooms = new List<Room>();
+
+
+var botManager = new TelegramBotManager();
+var bot = botManager.Create("5674695715:AAEGpPEyu_tUbeJp_C4slf89laNWGq9PQM0");
+
+var me = await bot.GetMeAsync();
+
+Console.WriteLine($"{me.FirstName}:  Bot is working! ");
+
+
+botManager.Start(NewMessage);
+
+
+void NewMessage(Update update)
+{
+    if (update.Type != UpdateType.Message)
+        return;
+
+    Console.WriteLine($"Username: {update.Message.From.FirstName}, Message text:  {update.Message!.Text}\n");
+
+    var messsage = update.Message.Text;
+
+    var user = CheckUser(update);
+
+    switch (user.NextMessage)
+    {
+        case ENextMessage.Created: SendEnterName(user); break;
+        case ENextMessage.UserName: SeveUserNameAndSendMenu(user, messsage); break;
+        case ENextMessage.CreatOrJoinRoomMenu: CreateRoomOrJoinMenu(user, messsage); break;
+        case ENextMessage.RoomName: CreateNewRoom(user, messsage); break;
+        case ENextMessage.ChooseOutlaysMenu: ChooseOutlaysMenu(user, messsage); break;
+        case ENextMessage.SaveOutlayName: SaveSendOutlayName(user, messsage); break;
+        case ENextMessage.EnterPrice: SaveSendOutlayPrice(user, messsage); break;
+        default: bot.SendTextMessageAsync(user.ChatId, "Unknown command!!!"); break;
+    }
+}
+
+User CheckUser(Update update)
+{
+    var chatId = update.Message.From.Id;
+
+    User? user = users.FirstOrDefault(user => user.ChatId == chatId);
+
+    if (user == null)
+    {
+        user = new User();
+        user.ChatId = chatId;
+        users.Add(user);
+        user.NextMessage = ENextMessage.Created;
+    }
+
+    return user;
+}
+
+void SendEnterName(User user)
+{
+    bot.SendTextMessageAsync(user.ChatId, "Enter your name: ");
+    user.NextMessage = ENextMessage.UserName;
+}
+
+void SeveUserNameAndSendMenu(User user, string message)
+{
+    user.Name = message;
+    user.NextMessage = ENextMessage.CreatOrJoinRoomMenu;
+
+    SendMenu(user);
+}
+
+void SendMenu(User user)
+{
+    var roomMenu = $"Menu: \nCreated room  \nJoin room";
+
+    var keyboardButtonStart = new ReplyKeyboardMarkup(new List<List<KeyboardButton>>()
+    {
+         new List<KeyboardButton>() { new KeyboardButton("Created room" ) },
+         new List<KeyboardButton>() { new KeyboardButton("Join room")     },
+    });
+
+    bot.SendTextMessageAsync(user.ChatId, roomMenu, replyMarkup: keyboardButtonStart);
+}
+
+void CreateRoomOrJoinMenu(User user, string message)
+{
+    switch (message.ToLower())
+    {
+        case "created room": CreatedRoom(user); break;
+        case "join room": JoinRoom(user); break;
+        default:
+            {
+                bot.SendTextMessageAsync(user.ChatId, "Vatiantlardan birini tanlang!");
+                CreateRoomOrJoinMenu(user, message);
+            }
+            break;
+    }
+}
+
+void CreatedRoom(User user)
+{
+    bot.SendTextMessageAsync(user.ChatId, "Enter room name: ");
+    user.NextMessage = ENextMessage.RoomName;
+}
+
+void CreateNewRoom(User user, string message)
+{
+    var newRoom = new Room
+    {
+        Name = message,
+        OwnerChatId = user.ChatId,
+        UserIds = new List<long> { user.ChatId },
+        Outlays = new List<Outlay>(),
+        Key = Guid.NewGuid().ToString()
+    };
+
+    rooms.Add(newRoom);
+
+    SendRoomMenu(user, newRoom);
+}
+
+void SendRoomMenu(User user, Room newRoom)
+{
+    var roomMenu = $"<< Room name:   {newRoom.Name} >> " + "\n\nAddOutlay" + "\nShowOutlays" +
+                         "\nShowRoomdetails, \nConculate, \nExit";
+
+    var keyboardButtonStart = new ReplyKeyboardMarkup(new List<List<KeyboardButton>>()
+    {
+         new List<KeyboardButton>() 
+         { 
+             new KeyboardButton("AddOutlay"), 
+             new KeyboardButton("ShowOutlays"),
+             new KeyboardButton("ShowRoomdetails"),
+         },
+         new List<KeyboardButton>() { new KeyboardButton("Conculate"), new KeyboardButton("Exit")  },
+    });
+
+    bot.SendTextMessageAsync(user.ChatId, roomMenu, replyMarkup: keyboardButtonStart);
+
+    user.CurrentRoom = newRoom;
+
+    user.NextMessage = ENextMessage.ChooseOutlaysMenu;
+}
+
+void ChooseOutlaysMenu(User user, string? message)
+{
+    switch (message)
+    {
+        case "AddOutlay": AddOutlay(user); break;
+        case "ShowOutlays": SendOutlays(user); break;
+        case "ShowRoomdetails": Conculate(user); break;
+        case "Conculate": Conculate(user); break;
+        case "Exit": Exit(user); break;
+        default:
+            break;
+    }
+}
+
+void AddOutlay(User user)
+{
+    bot.SendTextMessageAsync(user.ChatId, "Enter outlay name: ");
+    user.NextMessage = ENextMessage.SaveOutlayName;
+}
+
+void SaveSendOutlayName(User user, string? messsage)
+{
+    Outlay outlay = new()
+    {
+        PruductName = messsage,
+        UserChatId = user.ChatId,
+        CreatedTime = DateTime.Now,
+    };
+
+    user.CurrentRoom.Outlays.Add(outlay);
+    user.CurrentAddingOutlay = outlay;
+    bot.SendTextMessageAsync(user.ChatId, "Enter outlay Price: ");
+    user.NextMessage = ENextMessage.EnterPrice;
+}
+
+
+void SaveSendOutlayPrice(User user, string messsage)
+{
+    try
+    {
+        user.CurrentAddingOutlay!.ProductPrice = Convert.ToInt64(messsage); ;
+        user.NextMessage = ENextMessage.ChooseOutlaysMenu;
+
+        SendRoomMenu(user, user.CurrentRoom);
+    }
+    catch (Exception ex)
+    {
+        Console.WriteLine(ex.ToString());
+        bot.SendTextMessageAsync(user.ChatId, "Catch, Enter outlay Price: ");
+        user.NextMessage = ENextMessage.EnterPrice;
+    }
+}
+
+
+
+
+void SendOutlays(User user)
+{
+    bot.SendTextMessageAsync(user.ChatId, "ShowOutlays function");
+
+    foreach (var oulay in user.CurrentRoom.Outlays)
+    {
+
+    }
+
+
+}
+
+void Conculate(User user)
+{
+    bot.SendTextMessageAsync(user.ChatId, "Conculate function");
+}
+
+void Exit(User user)
+{
+    bot.SendTextMessageAsync(user.ChatId, "Exit function");
+}
+
+void JoinRoom(User user)
+{
+    bot.SendTextMessageAsync(user.ChatId, "Enter room key to join:  ");
+    user.NextMessage = ENextMessage.RoomName;
+}
+
+void ShowRoms()
+{
+    string roms = "";
+
+    foreach (var item in roms)
+    {
+
+    }
+}
+
+
+
+
+
+

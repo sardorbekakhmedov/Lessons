@@ -1,0 +1,32 @@
+﻿
+Car car = new Car();
+car.City = "New-york";
+car.Show();
+
+Vehicle vehicle = car;
+vehicle.Show();
+
+
+class Vehicle
+{
+    public string Name;
+    public string Year;
+    public string Color;
+
+    public virtual void Show()
+    {
+        Console.WriteLine("Vehicle: ");
+    }
+}
+
+
+class Car : Vehicle
+{
+    public string City;
+
+    public override void Show()
+    {
+        Console.WriteLine($" Car:  {City}");
+    }
+
+}
