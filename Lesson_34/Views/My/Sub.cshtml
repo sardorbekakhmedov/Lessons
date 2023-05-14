@@ -1,0 +1,35 @@
+﻿
+
+<h1>Welcome to sub function</h1>
+
+<input placeholder="your text1" type="text"/>
+<br/>
+<input placeholder="your text2" type="text"/>
+<br/>
+<input type="checkbox"/>
+<br/>
+<input type="color"/>
+<br/>
+<button style="accent-color: auto">Result</button>
+<img style="width: 150px; height: 158px;" src="/img/choose.png"/>
+<a href="https://localhost:7002/my/sub?a=12&b=15">sub</a>
+
+
+<h3> a = @ViewBag.a </h3>
+
+<h3> b = @ViewBag.b </h3>
+
+<h2 style="background-color: bisque"> Result: @ViewBag.a - @ViewBag.b = @ViewBag.Sum </h2>
+
+@{
+    for (int i = 1; i <= 2; i++)
+    {
+        <p style="background-color:aqua"> -> @i</p>        
+    }
+}
+
+
+
+<br/>
+<br/>
+<h3  style="background-color: orangered">End function</h3>

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Lesson56_AuthHundler.props" />
+</Project>

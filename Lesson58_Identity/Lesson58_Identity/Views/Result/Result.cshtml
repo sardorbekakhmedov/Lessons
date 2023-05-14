@@ -1,0 +1,69 @@
+﻿@model Result
+
+<!DOCTYPE html>
+
+
+<html>
+<head>
+    <title>Calculate result</title>
+    <style>
+		body {
+			font-family: Arial, sans-serif;
+			background-color: #f4f4f4;
+		}
+		.container {
+			max-width: 500px;
+			margin: 0 auto;
+			padding: 20px;
+			background-color: red;
+			box-shadow: 0 2px 4px rgba(0,0,0,.1);
+			border-radius: 4px;
+		}
+		h1 {
+			font-size: 28px;
+			margin-top: 0;
+			color: #333;
+		}
+		.result {
+			font-size: 20px;
+			color: #333;
+			margin-bottom: 20px;
+		}
+		.numbers {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			margin-bottom: 20px;
+			color: #666;
+			font-size: 18px;
+		}
+		.number-label {
+			flex: 1;
+			margin-right: 10px;
+			font-weight: bold;
+		}
+	</style>
+</head>
+
+@{
+    Layout = "_Layout";
+}
+
+
+<body>
+<div class="container">
+    <h1>Calculate result</h1>
+    <div class="numbers">
+        <span class="number-label">First number:</span>
+        <span class="number-value">@Model.Num1</span>
+    </div>
+    <div class="numbers">
+        <span class="number-label">Seconf number:</span>
+        <span class="number-value">@Model.Num2</span>
+    </div>
+    <div class="result">
+        Result: @Model.Output
+    </div>
+</div>
+</body>
+</html>

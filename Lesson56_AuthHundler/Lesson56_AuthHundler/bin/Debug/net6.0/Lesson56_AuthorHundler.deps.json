@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Lesson56_AuthorHundler/1.0.0": {
+        "runtime": {
+          "Lesson56_AuthorHundler.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Lesson56_AuthorHundler/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

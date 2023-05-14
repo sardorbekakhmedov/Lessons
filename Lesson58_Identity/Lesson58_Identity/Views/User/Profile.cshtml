@@ -1,0 +1,25 @@
+﻿@using Microsoft.AspNetCore.Mvc.ModelBinding.Validation
+@model User
+
+@{
+    ViewData["Title"] = "Profile";
+}
+
+<h1 style="color: red ">Profile page</h1>
+
+<h3 style="color: yellow ">@Model.UserName</h3>
+<h5 style="color: yellow ">@Model.Email</h5>
+
+@{
+    if (Model.Results.Count > 0)
+    {
+        var results = Model.Results.ToList();
+
+        foreach (var item in results)
+        {
+            <h5>@item.Num1</h5>
+            <h5>@item.Num2</h5>
+            <h3>@item.Output</h3>
+        }
+    }
+}

@@ -1,0 +1,46 @@
+﻿@model User;
+
+@{
+    ViewData["Title"] = "SignIn";
+}
+
+<style>
+    
+    .error {
+        display: none;
+        color: red;
+        font-size: 12px;
+        margin-top: 5px;
+    }
+
+    
+    input:invalid + .error,
+    textarea:invalid + .error {
+        display: block;
+    }
+
+</style>
+
+
+@if (ViewBag.Text == "Success")
+{
+    <h1 class="btn btn-outline-primary" >@ViewBag.Text username login </h1>    
+}
+else
+{
+    <form  asp-controller="Users" asp-action="SignIn" method="post">
+        <input style="color: gold" asp-for="Name" name="Name" type="text" placeholder="Enter your name" required/>
+        <br/>
+        <span asp-validation-for="Name" class="error">Please enter your username</span>
+        <br/>
+        <button type="submit" class="btn btn-outline-primary" >Submit</button>
+    </form>
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,97 @@
+﻿@model ResultDTO
+
+<h1 style="backgraound-color: red; text-alaign: center">Calculate</h1>
+
+<style>
+    form {
+        display: flex;
+        background-color: #00ff00 ;
+        flex-direction: column;
+        align-items: center;
+        margin: 50px auto;
+        max-width: 500px;
+        padding: 20px;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+    }
+
+    .div1 {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    label {
+        margin-bottom: 5px;
+        font-weight: bold;
+    }
+
+    input[type="text"],
+    input[type="tel"],
+    input[type="email"],
+    textarea {
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        width: 100%;
+        font-size: 16px;
+    }
+
+    input[type="text"]:focus,
+    input[type="tel"]:focus,
+    input[type="email"]:focus,
+    textarea:focus {
+        outline: none;
+        border: 1px solid #444;
+    }
+
+    .error {
+        display: none;
+        color: red;
+        font-size: 12px;
+        margin-top: 5px;
+    }
+
+    input:invalid + .error,
+    textarea:invalid + .error {
+        display: block;
+    }
+
+    button[type="submit"] {
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.2s ease-in-out;
+    }
+
+    button[type="submit"]:hover {
+        background-color: #00ff00;
+    }
+
+</style>
+
+@{
+    ViewData["Title"] = "SignUp";
+    Layout = "_Layout";
+}
+
+<form asp-controller="Result" asp-action="Result"  >
+    <div class="div1">
+        <label asp-for="Num1">First number:</label>
+        <input asp-for="Num1" placeholder="Please enter first number" type="number"name="Num1" required>
+        <span asp-validation-for="Num1" class="error">Please enter first number</span>
+    </div>
+
+    <div class="div1">
+        <label asp-for="Num2">First number:</label>
+        <input asp-for="Num2" placeholder="Enter your username" type="number"name="Num2" required>
+        <span asp-validation-for="Num1" class="error">Please enter second number</span>
+    </div>
+
+    <button type="submit">Submit</button>
+</form>

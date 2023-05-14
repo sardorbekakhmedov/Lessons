@@ -1,0 +1,94 @@
+﻿@model UserSignUpDTO
+
+<style>
+    form {
+        display: flex;
+        background-color: #00ff00;
+        flex-direction: column;
+        align-items: center;
+        margin: 50px auto;
+        max-width: 500px;
+        padding: 20px;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+    }
+
+    .div1 {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    label {
+        margin-bottom: 5px;
+        font-weight: bold;
+    }
+
+    input[type="text"],
+    input[type="tel"],
+    input[type="email"],
+    textarea {
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        width: 100%;
+        font-size: 16px;
+    }
+
+    input[type="text"]:focus,
+    input[type="tel"]:focus,
+    input[type="email"]:focus,
+    textarea:focus {
+        outline: none;
+        border: 1px solid #444;
+    }
+
+    .error {
+        display: none;
+        color: red;
+        font-size: 12px;
+        margin-top: 5px;
+    }
+
+    input:invalid + .error,
+    textarea:invalid + .error {
+        display: block;
+    }
+
+    button[type="submit"] {
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.2s ease-in-out;
+    }
+
+    button[type="submit"]:hover {
+        background-color: #00ff00;
+    }
+
+</style>
+
+@{
+    ViewData["Title"] = "SignIn";
+    Layout = "_Layout";
+}
+
+<form asp-controller="User" asp-action="SignIn" method="post">
+    <div class="div1">
+        <label asp-for="UserName">Firstname:</label>
+        <input asp-for="UserName" placeholder="Enter your username" type="text"name="UserName" required>
+        <span asp-validation-for="UserName" class="error">Please enter your name</span>
+    </div>
+
+    <div class="div1">
+        <label asp-for="Password">Password:</label>
+        <input asp-for="Password" placeholder="Enter your password" type="password"  name="Password" required>
+        <span asp-validation-for="Password" class="error">Please enter your password</span>
+    </div>
+    <button type="submit">Submit</button>
+</form>
