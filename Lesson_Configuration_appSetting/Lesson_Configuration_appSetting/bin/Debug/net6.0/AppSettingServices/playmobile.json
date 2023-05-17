@@ -1,0 +1,19 @@
+﻿{  
+  "PlayMobile": {
+      "BaseUrl": "https://playmobile.uz/",
+      "Username": "username",
+      "Password": "parol",
+      "ConfirmPassword": "confirm_password",
+
+      "Limits": {
+        "SmsTextLimit1": 25,
+        "SmsTextLimit2": 21,
+        "SmsTextLimit3": 22,
+        "SmsTextLimits": [
+          "v1",
+          "v2",
+          "v3"
+        ]
+      }
+    }
+}
