@@ -9,8 +9,9 @@ var logger = new LoggerConfiguration()
     .WriteTo.File("LoggerServices/Logger.txt", LogEventLevel.Error)
     .CreateLogger();
 
-builder.Logging.AddSerilog(logger);
 // Add services to the container.
+
+builder.Logging.AddSerilog(logger);
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

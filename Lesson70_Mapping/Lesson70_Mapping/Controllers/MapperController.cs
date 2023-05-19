@@ -21,6 +21,10 @@ public class MapperController : Controller
             UserName = "username"
         };
 
+        TypeAdapterConfig config = new TypeAdapterConfig()
+            .ForType<User, UserDto>()
+            .Map(member => member.FirstName, source => source.Name).Config;
+
         var userDto = user.Adapt<UserDto>();
 
         return Ok(userDto);

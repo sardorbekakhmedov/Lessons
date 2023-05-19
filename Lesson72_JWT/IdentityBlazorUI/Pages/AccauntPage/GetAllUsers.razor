@@ -1,0 +1,36 @@
+﻿@page "/get_all_users"
+@inject HttpClient HttpClient
+
+<h3>GetAllUsers</h3>
+
+@if (Users is null)
+{
+    <div class="spinner-border text-primary" role="status">
+        <span class="sr-only">Create_Product...</span>
+    </div>
+}
+else
+{
+    @foreach (var user in Users)
+    {
+        <h2>Firstname:  @user.FirstName</h2>
+        <h5>Username:  @user.UserName</h5>
+        <h5>Password:  @user.Password</h5>
+        <p>Id:  @user.Id</p>
+    }
+}
+
+
+@code {
+
+    private bool _isLoading = false;
+    public List<User>? Users;
+
+
+    protected override async Task OnInitializedAsync()
+    {
+        _isLoading = true;
+        Users = await HttpClient.GetFromJsonAsync<List<User>>("/api/GetAllUsers");
+        _isLoading = false;
+    }
+}

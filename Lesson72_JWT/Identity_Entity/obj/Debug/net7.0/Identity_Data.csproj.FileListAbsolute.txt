@@ -1,0 +1,14 @@
+C:\C#\Lessons\Lesson72_JWT\Identity_Entity\bin\Debug\net7.0\Identity_Data.deps.json
+C:\C#\Lessons\Lesson72_JWT\Identity_Entity\bin\Debug\net7.0\Identity_Data.runtimeconfig.json
+C:\C#\Lessons\Lesson72_JWT\Identity_Entity\bin\Debug\net7.0\Identity_Data.dll
+C:\C#\Lessons\Lesson72_JWT\Identity_Entity\bin\Debug\net7.0\Identity_Data.pdb
+C:\C#\Lessons\Lesson72_JWT\Identity_Entity\obj\Debug\net7.0\Identity_Data.csproj.AssemblyReference.cache
+C:\C#\Lessons\Lesson72_JWT\Identity_Entity\obj\Debug\net7.0\Identity_Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\C#\Lessons\Lesson72_JWT\Identity_Entity\obj\Debug\net7.0\Identity_Data.AssemblyInfoInputs.cache
+C:\C#\Lessons\Lesson72_JWT\Identity_Entity\obj\Debug\net7.0\Identity_Data.AssemblyInfo.cs
+C:\C#\Lessons\Lesson72_JWT\Identity_Entity\obj\Debug\net7.0\Identity_Data.csproj.CoreCompileInputs.cache
+C:\C#\Lessons\Lesson72_JWT\Identity_Entity\obj\Debug\net7.0\Identity_Data.dll
+C:\C#\Lessons\Lesson72_JWT\Identity_Entity\obj\Debug\net7.0\refint\Identity_Data.dll
+C:\C#\Lessons\Lesson72_JWT\Identity_Entity\obj\Debug\net7.0\Identity_Data.pdb
+C:\C#\Lessons\Lesson72_JWT\Identity_Entity\obj\Debug\net7.0\Identity_Data.genruntimeconfig.cache
+C:\C#\Lessons\Lesson72_JWT\Identity_Entity\obj\Debug\net7.0\ref\Identity_Data.dll
