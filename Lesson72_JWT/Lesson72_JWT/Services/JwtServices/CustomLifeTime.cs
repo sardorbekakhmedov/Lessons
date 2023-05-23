@@ -1,6 +1,6 @@
 ﻿using Microsoft.IdentityModel.Tokens;
 
-namespace Lesson72_JWT.Services;
+namespace Lesson72_JWT.Services.JwtServices;
 
 public class CustomLifeTime
 {

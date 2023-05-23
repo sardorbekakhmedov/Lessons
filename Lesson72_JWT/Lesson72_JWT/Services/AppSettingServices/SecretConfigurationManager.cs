@@ -1,6 +1,4 @@
-﻿using Microsoft.Extensions.Configuration;
-
-namespace Lesson72_JWT.Services.AppSettingModels;
+﻿namespace Lesson72_JWT.Services.AppSettingServices;
 
 public static class SecretConfigurationManager
 {

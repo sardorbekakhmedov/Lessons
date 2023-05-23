@@ -1,0 +1,12 @@
+C:\C#\Lessons\Lesson_74_AuthenticationHandler_Task\Lesson74Data\bin\Debug\net7.0\Lesson74Data.deps.json
+C:\C#\Lessons\Lesson_74_AuthenticationHandler_Task\Lesson74Data\bin\Debug\net7.0\Lesson74Data.dll
+C:\C#\Lessons\Lesson_74_AuthenticationHandler_Task\Lesson74Data\bin\Debug\net7.0\Lesson74Data.pdb
+C:\C#\Lessons\Lesson_74_AuthenticationHandler_Task\Lesson74Data\obj\Debug\net7.0\Lesson74Data.csproj.AssemblyReference.cache
+C:\C#\Lessons\Lesson_74_AuthenticationHandler_Task\Lesson74Data\obj\Debug\net7.0\Lesson74Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\C#\Lessons\Lesson_74_AuthenticationHandler_Task\Lesson74Data\obj\Debug\net7.0\Lesson74Data.AssemblyInfoInputs.cache
+C:\C#\Lessons\Lesson_74_AuthenticationHandler_Task\Lesson74Data\obj\Debug\net7.0\Lesson74Data.AssemblyInfo.cs
+C:\C#\Lessons\Lesson_74_AuthenticationHandler_Task\Lesson74Data\obj\Debug\net7.0\Lesson74Data.csproj.CoreCompileInputs.cache
+C:\C#\Lessons\Lesson_74_AuthenticationHandler_Task\Lesson74Data\obj\Debug\net7.0\Lesson74Data.dll
+C:\C#\Lessons\Lesson_74_AuthenticationHandler_Task\Lesson74Data\obj\Debug\net7.0\refint\Lesson74Data.dll
+C:\C#\Lessons\Lesson_74_AuthenticationHandler_Task\Lesson74Data\obj\Debug\net7.0\Lesson74Data.pdb
+C:\C#\Lessons\Lesson_74_AuthenticationHandler_Task\Lesson74Data\obj\Debug\net7.0\ref\Lesson74Data.dll

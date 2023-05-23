@@ -1,7 +1,8 @@
 using Identity_Data.Context;
-using Lesson72_JWT.ServiceExtensions;
 using Lesson72_JWT.Services;
-using Lesson72_JWT.Services.AppSettingModels;
+using Lesson72_JWT.Services.AppSettingServices;
+using Lesson72_JWT.Services.Extensions;
+using Lesson72_JWT.Services.JwtServices;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
 using Serilog;

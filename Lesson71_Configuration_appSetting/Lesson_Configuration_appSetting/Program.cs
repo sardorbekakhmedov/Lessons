@@ -16,7 +16,7 @@ builder.Services.AddSingleton<CustomOptions>();
 builder.Services.Configure<PlayMobile>(builder.Configuration.GetSection(PlayMobile.SectionName));
 
 
-/*
+/*  
  var connectionString = builder.Configuration.GetValue<string>("ConnectionString");
 Console.WriteLine(connectionString);
 

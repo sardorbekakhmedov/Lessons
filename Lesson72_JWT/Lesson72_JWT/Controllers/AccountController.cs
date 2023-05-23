@@ -2,6 +2,7 @@
 using Identity_Data.DTO;
 using Identity_Data.Entities;
 using Lesson72_JWT.Services;
+using Lesson72_JWT.Services.JwtServices;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Lesson72_JWT.Controllers;

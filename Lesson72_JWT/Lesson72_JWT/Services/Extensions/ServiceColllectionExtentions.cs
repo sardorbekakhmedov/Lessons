@@ -1,9 +1,9 @@
-﻿using Microsoft.AspNetCore.Authentication.JwtBearer;
+﻿using System.Text;
+using Lesson72_JWT.Services.JwtServices;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
-using System.Text;
-using Lesson72_JWT.Services;
 
-namespace Lesson72_JWT.ServiceExtensions;
+namespace Lesson72_JWT.Services.Extensions;
 
 public static class ServiceCollectionExtensions
 {
@@ -21,7 +21,7 @@ public static class ServiceCollectionExtensions
             options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
             options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
             options.DefaultScheme = JwtBearerDefaults.AuthenticationScheme;
-        })  
+        })
         .AddJwtBearer(options =>
         {
             options.TokenValidationParameters = new TokenValidationParameters
@@ -33,10 +33,10 @@ public static class ServiceCollectionExtensions
                 ValidateLifetime = true,
                 IssuerSigningKey = signinKey,
                 ValidateIssuerSigningKey = true,
-              //  ClockSkew = TimeSpan.Zero,
+                //  ClockSkew = TimeSpan.Zero,
                 LifetimeValidator = CustomLifeTime.CustomLifeTimeValidator
 
-                    
+
                 /*   ValidIssuer = "Identity.Api",  // Kim tomonidan
                    ValidAudience = "Products",   // kimlar uchun
                  //  ValidAudiences = 

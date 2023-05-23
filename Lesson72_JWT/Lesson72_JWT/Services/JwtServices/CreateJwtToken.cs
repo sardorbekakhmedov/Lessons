@@ -2,12 +2,11 @@
 using System.Security.Claims;
 using System.Text;
 using Identity_Data.Entities;
-using Lesson72_JWT.Services.AppSettingModels;
-using Microsoft.AspNetCore.Mvc;
+using Lesson72_JWT.Services.AppSettingServices;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 
-namespace Lesson72_JWT.Services;
+namespace Lesson72_JWT.Services.JwtServices;
 
 public class CreateJwtToken
 {

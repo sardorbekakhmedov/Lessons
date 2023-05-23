@@ -24,7 +24,7 @@ public class LoggerMiddleware
         }
         catch (Exception e)
         {
-            _iLogger.LogError(e, "Internal ERROR");
+            _iLogger.LogError(e, " _ERROR");
             httpContext.Response.StatusCode = StatusCodes.Status500InternalServerError;
             await httpContext.Response.WriteAsJsonAsync( new { Error = "UnHandle exception! "});
         }
