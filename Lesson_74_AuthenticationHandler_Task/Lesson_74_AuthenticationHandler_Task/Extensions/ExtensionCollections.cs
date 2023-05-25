@@ -13,9 +13,8 @@ public static class ExtensionCollections
     public static void AddJwtConfiguration(this IServiceCollection services, IConfiguration configuration)
     {
         var secretKey = configuration.GetSection("JwtSettings:SecretKey").Value;
-        var issuer = configuration.GetSection("JwtSettings:Issuer").Value;
-        var audience = configuration.GetSection("JwtSettings:Audience").Value;
-
+        var issuer = configuration.GetSection("JwtSettings:Issuer").Value;        // Qaysi project uchun 
+        var audience = configuration.GetSection("JwtSettings:Audience").Value;    // Qaysi action uchun 
 
         var signInKey = new SymmetricSecurityKey(Encoding.UTF32.GetBytes(secretKey!));
 

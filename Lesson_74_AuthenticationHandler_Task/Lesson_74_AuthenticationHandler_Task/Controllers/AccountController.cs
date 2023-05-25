@@ -1,4 +1,4 @@
-﻿using Lesson_74_AuthenticationHandler_Task.Services.AppSettingsServices;
+﻿using Lesson_74_AuthenticationHandler_Task.Services.ConfigureServices;
 using Lesson74Data.DTO;
 using Lesson74Data.Entities;
 using Lesson74Data.Interfaces;
@@ -58,6 +58,7 @@ public class AccountController : ControllerBase
 
 
         UserRepository.Users.Add(user);
+
         await UserRepository.SaveUsersAsync(_options.FilePath);
 
         return Ok(user);
@@ -72,6 +73,7 @@ public class AccountController : ControllerBase
         }
 
         await UserRepository.ReadUsersDataAsync(_options.FilePath);
+
         var user = UserRepository.Users.FirstOrDefault(user => user.UserName == model.UserName);
 
         if (user == null || user.Password != model.Password)
@@ -79,7 +81,6 @@ public class AccountController : ControllerBase
             ModelState.AddModelError("", "User not found");
             return NotFound(ModelState);
         }
-
 
         var token = _jwtToken.CreateJwtToken(user);
 

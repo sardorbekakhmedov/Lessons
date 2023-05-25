@@ -1,6 +1,5 @@
 using System.Security.Claims;
 using Lesson_74_AuthenticationHandler_Task.Extensions;
-using Lesson_74_AuthenticationHandler_Task.Services.AppSettingsServices;
 using Lesson_74_AuthenticationHandler_Task.Services.AuthHandlerServices;
 using Lesson_74_AuthenticationHandler_Task.Services.ConfigureServices;
 using Lesson74Data.Interfaces;
@@ -49,8 +48,6 @@ builder.Services.AddAuthorization(options =>
             handler => handler.User.HasClaim(ClaimTypes.Role, "User")
                        || handler.User.HasClaim(ClaimTypes.Role, "Admin"));
     });
-
-
 });
 
 builder.Services.AddJwtConfiguration(builder.Configuration);
@@ -59,6 +56,7 @@ builder.Services.AddScoped<IJwtTokenServices, JwtTokenServices>();
 builder.Services.AddScoped<ISmallestMultipleFinder, SmallestMultipleFinder>();
 
 builder.Services.Configure<UsersDataPath>(builder.Configuration.GetSection(UsersDataPath.SectionName));
+
 builder.Services.Configure<JwtSettingsConfigure>(builder.Configuration.GetSection(JwtSettingsConfigure.SectionName));
 
 

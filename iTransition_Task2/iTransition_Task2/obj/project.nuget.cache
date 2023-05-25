@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "fL3bvFggunyA3IX80vCljMm00dCcN4ndFfCuCNdX6v8tCktMDNFoFHMI2/tc09zh3/CXIFcLkaoKXOf6gidulQ==",
+  "success": true,
+  "projectFilePath": "C:\\C#\\Lessons\\iTransition_Task2\\iTransition_Task2\\iTransition_Task2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\sardo\\.nuget\\packages\\portable.bouncycastle\\1.9.0\\portable.bouncycastle.1.9.0.nupkg.sha512"
+  ],
+  "logs": []
+}

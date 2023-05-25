@@ -1,6 +1,6 @@
 ﻿using System.Security.Claims;
 using Lesson_74_AuthenticationHandler_Task.Services;
-using Lesson_74_AuthenticationHandler_Task.Services.AppSettingsServices;
+using Lesson_74_AuthenticationHandler_Task.Services.ConfigureServices;
 using Lesson74Data.Entities;
 using Lesson74Data.Interfaces;
 using Lesson74Data.RepositoryServices;
@@ -28,12 +28,15 @@ public class UserController : ControllerBase
     public async Task<IActionResult> GetAllUsers()
     {
         await UserRepository.ReadUsersDataAsync(_options.FilePath);
+
         var users = UserRepository.Users;
+
         return Ok(users);
     }
 
     [HttpGet("/Profile")]
     [Authorize]
+    //[AuthHandler]
     public async Task<IActionResult> Profile()
     {
         await UserRepository.ReadUsersDataAsync(_options.FilePath);
@@ -52,7 +55,7 @@ public class UserController : ControllerBase
 
 
     [HttpPost("/Task")]
-    [Authorize(Policy = "User")]
+    [Authorize]
     public async Task<IActionResult> Task([FromForm] TaskEntity taskModel)
     {
         var result = _taskFinder.FindSmallestMultiple(taskModel.Number);
@@ -60,12 +63,10 @@ public class UserController : ControllerBase
         return Ok($"Result: {result}");
     }
 
-
     [HttpPost("/Secret")]
     [Authorize(Policy = "Admin")]
     public async Task<IActionResult> Secret()
     {
         return Ok("Super secret API");
     }
-
 }

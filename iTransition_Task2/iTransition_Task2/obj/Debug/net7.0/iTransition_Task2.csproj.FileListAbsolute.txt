@@ -1,0 +1,17 @@
+C:\C#\Lessons\iTransition_Task2\iTransition_Task2\bin\Debug\net7.0\iTransition_Task2.exe
+C:\C#\Lessons\iTransition_Task2\iTransition_Task2\bin\Debug\net7.0\iTransition_Task2.deps.json
+C:\C#\Lessons\iTransition_Task2\iTransition_Task2\bin\Debug\net7.0\iTransition_Task2.runtimeconfig.json
+C:\C#\Lessons\iTransition_Task2\iTransition_Task2\bin\Debug\net7.0\iTransition_Task2.dll
+C:\C#\Lessons\iTransition_Task2\iTransition_Task2\bin\Debug\net7.0\iTransition_Task2.pdb
+C:\C#\Lessons\iTransition_Task2\iTransition_Task2\bin\Debug\net7.0\BouncyCastle.Crypto.dll
+C:\C#\Lessons\iTransition_Task2\iTransition_Task2\obj\Debug\net7.0\iTransition_Task2.csproj.AssemblyReference.cache
+C:\C#\Lessons\iTransition_Task2\iTransition_Task2\obj\Debug\net7.0\iTransition_Task2.GeneratedMSBuildEditorConfig.editorconfig
+C:\C#\Lessons\iTransition_Task2\iTransition_Task2\obj\Debug\net7.0\iTransition_Task2.AssemblyInfoInputs.cache
+C:\C#\Lessons\iTransition_Task2\iTransition_Task2\obj\Debug\net7.0\iTransition_Task2.AssemblyInfo.cs
+C:\C#\Lessons\iTransition_Task2\iTransition_Task2\obj\Debug\net7.0\iTransition_Task2.csproj.CoreCompileInputs.cache
+C:\C#\Lessons\iTransition_Task2\iTransition_Task2\obj\Debug\net7.0\iTransition_Task2.csproj.CopyComplete
+C:\C#\Lessons\iTransition_Task2\iTransition_Task2\obj\Debug\net7.0\iTransition_Task2.dll
+C:\C#\Lessons\iTransition_Task2\iTransition_Task2\obj\Debug\net7.0\refint\iTransition_Task2.dll
+C:\C#\Lessons\iTransition_Task2\iTransition_Task2\obj\Debug\net7.0\iTransition_Task2.pdb
+C:\C#\Lessons\iTransition_Task2\iTransition_Task2\obj\Debug\net7.0\iTransition_Task2.genruntimeconfig.cache
+C:\C#\Lessons\iTransition_Task2\iTransition_Task2\obj\Debug\net7.0\ref\iTransition_Task2.dll
