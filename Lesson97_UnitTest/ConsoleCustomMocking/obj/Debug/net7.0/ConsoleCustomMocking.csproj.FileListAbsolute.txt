@@ -1,0 +1,15 @@
+C:\C#\Lessons\Lesson97_UnitTest\ConsoleCustomMocking\bin\Debug\net7.0\ConsoleCustomMocking.exe
+C:\C#\Lessons\Lesson97_UnitTest\ConsoleCustomMocking\bin\Debug\net7.0\ConsoleCustomMocking.deps.json
+C:\C#\Lessons\Lesson97_UnitTest\ConsoleCustomMocking\bin\Debug\net7.0\ConsoleCustomMocking.runtimeconfig.json
+C:\C#\Lessons\Lesson97_UnitTest\ConsoleCustomMocking\bin\Debug\net7.0\ConsoleCustomMocking.dll
+C:\C#\Lessons\Lesson97_UnitTest\ConsoleCustomMocking\bin\Debug\net7.0\ConsoleCustomMocking.pdb
+C:\C#\Lessons\Lesson97_UnitTest\ConsoleCustomMocking\obj\Debug\net7.0\ConsoleCustomMocking.csproj.AssemblyReference.cache
+C:\C#\Lessons\Lesson97_UnitTest\ConsoleCustomMocking\obj\Debug\net7.0\ConsoleCustomMocking.GeneratedMSBuildEditorConfig.editorconfig
+C:\C#\Lessons\Lesson97_UnitTest\ConsoleCustomMocking\obj\Debug\net7.0\ConsoleCustomMocking.AssemblyInfoInputs.cache
+C:\C#\Lessons\Lesson97_UnitTest\ConsoleCustomMocking\obj\Debug\net7.0\ConsoleCustomMocking.AssemblyInfo.cs
+C:\C#\Lessons\Lesson97_UnitTest\ConsoleCustomMocking\obj\Debug\net7.0\ConsoleCustomMocking.csproj.CoreCompileInputs.cache
+C:\C#\Lessons\Lesson97_UnitTest\ConsoleCustomMocking\obj\Debug\net7.0\ConsoleCustomMocking.dll
+C:\C#\Lessons\Lesson97_UnitTest\ConsoleCustomMocking\obj\Debug\net7.0\refint\ConsoleCustomMocking.dll
+C:\C#\Lessons\Lesson97_UnitTest\ConsoleCustomMocking\obj\Debug\net7.0\ConsoleCustomMocking.pdb
+C:\C#\Lessons\Lesson97_UnitTest\ConsoleCustomMocking\obj\Debug\net7.0\ConsoleCustomMocking.genruntimeconfig.cache
+C:\C#\Lessons\Lesson97_UnitTest\ConsoleCustomMocking\obj\Debug\net7.0\ref\ConsoleCustomMocking.dll

@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "jDjSf7VCx7Tn2BgKf2Y0bIXVCPhnUKlITi5uMuBviRBRTMwR2NCCtb9FJhMwFumBDEGPJCTygjq27sNmpz9SWA==",
+  "success": true,
+  "projectFilePath": "C:\\C#\\Lessons\\Lesson97_UnitTest\\NugetPackageMoq\\NugetPackageMoq.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\sardo\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
+    "C:\\Users\\sardo\\.nuget\\packages\\moq\\4.18.4\\moq.4.18.4.nupkg.sha512",
+    "C:\\Users\\sardo\\.nuget\\packages\\system.diagnostics.eventlog\\6.0.0\\system.diagnostics.eventlog.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

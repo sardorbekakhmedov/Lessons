@@ -1,0 +1,16 @@
+﻿using Moq;
+
+var mockService = new Mock<ICalculate>();
+
+mockService.Setup<int>(p => p.GetSum(It.IsAny<int>(), It.IsAny<int>())).Returns(7);
+
+var calculate = mockService.Object;
+
+var result = calculate.GetSum(2,1);
+
+Console.WriteLine($"Result: {result}");
+
+public interface ICalculate
+{
+    int GetSum(int x, int y);
+}

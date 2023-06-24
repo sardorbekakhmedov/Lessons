@@ -1,0 +1,12 @@
+C:\C#\Lessons\Lesson97_UnitTest\UnitTestLib\bin\Debug\net7.0\CustomMocking.deps.json
+C:\C#\Lessons\Lesson97_UnitTest\UnitTestLib\bin\Debug\net7.0\CustomMocking.dll
+C:\C#\Lessons\Lesson97_UnitTest\UnitTestLib\bin\Debug\net7.0\CustomMocking.pdb
+C:\C#\Lessons\Lesson97_UnitTest\UnitTestLib\obj\Debug\net7.0\CustomMocking.csproj.AssemblyReference.cache
+C:\C#\Lessons\Lesson97_UnitTest\UnitTestLib\obj\Debug\net7.0\CustomMocking.GeneratedMSBuildEditorConfig.editorconfig
+C:\C#\Lessons\Lesson97_UnitTest\UnitTestLib\obj\Debug\net7.0\CustomMocking.AssemblyInfoInputs.cache
+C:\C#\Lessons\Lesson97_UnitTest\UnitTestLib\obj\Debug\net7.0\CustomMocking.AssemblyInfo.cs
+C:\C#\Lessons\Lesson97_UnitTest\UnitTestLib\obj\Debug\net7.0\CustomMocking.csproj.CoreCompileInputs.cache
+C:\C#\Lessons\Lesson97_UnitTest\UnitTestLib\obj\Debug\net7.0\CustomMocking.dll
+C:\C#\Lessons\Lesson97_UnitTest\UnitTestLib\obj\Debug\net7.0\refint\CustomMocking.dll
+C:\C#\Lessons\Lesson97_UnitTest\UnitTestLib\obj\Debug\net7.0\CustomMocking.pdb
+C:\C#\Lessons\Lesson97_UnitTest\UnitTestLib\obj\Debug\net7.0\ref\CustomMocking.dll
