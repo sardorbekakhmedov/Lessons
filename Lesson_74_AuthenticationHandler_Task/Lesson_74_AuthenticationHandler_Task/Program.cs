@@ -33,7 +33,6 @@ builder.Services.AddAuthorization(options =>
                        || handler.User.HasClaim(ClaimTypes.Role, "Admin"));
     });
 
-
     options.AddPolicy("Teacher", builder3 =>
     {
         builder3.RequireAssertion(

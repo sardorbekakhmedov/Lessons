@@ -1,0 +1,20 @@
+﻿version: '3.7'
+services:
+    lesson77_api_signalr:
+        image: lesson77_api_signalr
+        container_name:  lesson77_api_signalr
+        build:
+            context: .
+            dockerfile: Lesson77_ApiSignalR\Dockerfile
+        ports:
+            - '7203:80'
+
+    lesson77_blazor_signalr:
+        image: lesson77_blazor_signalr
+        container_name: lesson77_blazor_signalr
+        build:
+            context: .
+            dockerfile: Lesson77_BlazorSignalR\Dockerfile
+        ports:
+            - '7153:80'
+            

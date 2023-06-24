@@ -1,0 +1,30 @@
+﻿@page "/long_pooling"
+@inject HttpClient Http
+
+
+<h3>LongPooling</h3>
+
+@foreach (var value in Values)
+{
+    <h1>@value</h1>
+}
+
+@code {
+    private List<string>? Values = new();
+
+    protected override async Task OnInitializedAsync()
+    {
+         _= Load();
+    }
+
+    private async Task Load()
+    {
+        while (true)
+        {
+            await Task.Delay(1000);
+
+            Values = await Http.GetFromJsonAsync<List<string>>("/api/Values");
+            StateHasChanged();
+        }
+    }
+}

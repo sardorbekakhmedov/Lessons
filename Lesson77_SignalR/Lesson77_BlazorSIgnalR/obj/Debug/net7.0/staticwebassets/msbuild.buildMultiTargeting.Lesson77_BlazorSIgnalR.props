@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Lesson77_BlazorSIgnalR.props" />
+</Project>

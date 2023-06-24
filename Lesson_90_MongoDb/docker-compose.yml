@@ -1,0 +1,17 @@
+version: '3.7'
+
+services:
+  lesson_90_mongodb:
+    image: mongodb_image
+    container_name: mongodb_container
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: mongodb_username
+      MONGO_INITDB_ROOT_PASSWORD: mongodb_password
+    ports:
+      - 27017:27017
+    restart: always
+    volumes:
+      - mongodb_data:/var/lib/mongodb/data
+
+volumes:
+  mongodb_data:

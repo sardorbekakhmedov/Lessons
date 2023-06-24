@@ -1,0 +1,15 @@
+C:\C#\Lessons\Lesson85_Query_Postgres\bin\Debug\net7.0\Lesson85_Query_Postgres.exe
+C:\C#\Lessons\Lesson85_Query_Postgres\bin\Debug\net7.0\Lesson85_Query_Postgres.deps.json
+C:\C#\Lessons\Lesson85_Query_Postgres\bin\Debug\net7.0\Lesson85_Query_Postgres.runtimeconfig.json
+C:\C#\Lessons\Lesson85_Query_Postgres\bin\Debug\net7.0\Lesson85_Query_Postgres.dll
+C:\C#\Lessons\Lesson85_Query_Postgres\bin\Debug\net7.0\Lesson85_Query_Postgres.pdb
+C:\C#\Lessons\Lesson85_Query_Postgres\obj\Debug\net7.0\Lesson85_Query_Postgres.csproj.AssemblyReference.cache
+C:\C#\Lessons\Lesson85_Query_Postgres\obj\Debug\net7.0\Lesson85_Query_Postgres.GeneratedMSBuildEditorConfig.editorconfig
+C:\C#\Lessons\Lesson85_Query_Postgres\obj\Debug\net7.0\Lesson85_Query_Postgres.AssemblyInfoInputs.cache
+C:\C#\Lessons\Lesson85_Query_Postgres\obj\Debug\net7.0\Lesson85_Query_Postgres.AssemblyInfo.cs
+C:\C#\Lessons\Lesson85_Query_Postgres\obj\Debug\net7.0\Lesson85_Query_Postgres.csproj.CoreCompileInputs.cache
+C:\C#\Lessons\Lesson85_Query_Postgres\obj\Debug\net7.0\Lesson85_Query_Postgres.dll
+C:\C#\Lessons\Lesson85_Query_Postgres\obj\Debug\net7.0\refint\Lesson85_Query_Postgres.dll
+C:\C#\Lessons\Lesson85_Query_Postgres\obj\Debug\net7.0\Lesson85_Query_Postgres.pdb
+C:\C#\Lessons\Lesson85_Query_Postgres\obj\Debug\net7.0\Lesson85_Query_Postgres.genruntimeconfig.cache
+C:\C#\Lessons\Lesson85_Query_Postgres\obj\Debug\net7.0\ref\Lesson85_Query_Postgres.dll

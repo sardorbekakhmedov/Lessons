@@ -1,0 +1,48 @@
+﻿@page "/signalr"
+@using Microsoft.AspNetCore.SignalR.Client
+@inject HttpClient Http
+
+<h3>SignalR</h3>
+
+@foreach (var value in Values)
+{
+    <h1>@value</h1>
+}
+
+<div>
+    <lebel>Type your message:</lebel>
+    <input type="text" @bind="_message" placeholder="Type your message"/>
+    <button class="btn btn-primary" @onclick="async () => await SendMessageAsync()">Send</button>
+</div>
+
+@code {
+    private string? _message;
+    private List<string>? Values = new();
+    private HubConnection hubConnection;
+
+    protected override async Task OnInitializedAsync()
+    {
+        Values = await Http.GetFromJsonAsync<List<string>>("api/Values");
+        await ConnectionToHub();
+    }
+
+    private async Task ConnectionToHub()
+    {
+        hubConnection = new HubConnectionBuilder()
+            .WithUrl("https://localhost:7203/chat")
+            .Build();
+
+        hubConnection.On<string>("newMessage", (message) =>
+        {   
+            Values?.Add(message);
+            StateHasChanged();
+        });
+
+        await hubConnection.StartAsync();
+    }
+
+    private async Task SendMessageAsync()
+    {
+        await hubConnection.SendAsync("SendMessage", _message);
+    }
+}

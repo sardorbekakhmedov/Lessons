@@ -1,0 +1,12 @@
+C:\C#\Lessons\UnitTest\Lesson97_UnitTest\bin\Debug\net7.0\Lesson97_UnitTest.deps.json
+C:\C#\Lessons\UnitTest\Lesson97_UnitTest\bin\Debug\net7.0\Lesson97_UnitTest.dll
+C:\C#\Lessons\UnitTest\Lesson97_UnitTest\bin\Debug\net7.0\Lesson97_UnitTest.pdb
+C:\C#\Lessons\UnitTest\Lesson97_UnitTest\obj\Debug\net7.0\Lesson97_UnitTest.csproj.AssemblyReference.cache
+C:\C#\Lessons\UnitTest\Lesson97_UnitTest\obj\Debug\net7.0\Lesson97_UnitTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\C#\Lessons\UnitTest\Lesson97_UnitTest\obj\Debug\net7.0\Lesson97_UnitTest.AssemblyInfoInputs.cache
+C:\C#\Lessons\UnitTest\Lesson97_UnitTest\obj\Debug\net7.0\Lesson97_UnitTest.AssemblyInfo.cs
+C:\C#\Lessons\UnitTest\Lesson97_UnitTest\obj\Debug\net7.0\Lesson97_UnitTest.csproj.CoreCompileInputs.cache
+C:\C#\Lessons\UnitTest\Lesson97_UnitTest\obj\Debug\net7.0\Lesson97_UnitTest.dll
+C:\C#\Lessons\UnitTest\Lesson97_UnitTest\obj\Debug\net7.0\refint\Lesson97_UnitTest.dll
+C:\C#\Lessons\UnitTest\Lesson97_UnitTest\obj\Debug\net7.0\Lesson97_UnitTest.pdb
+C:\C#\Lessons\UnitTest\Lesson97_UnitTest\obj\Debug\net7.0\ref\Lesson97_UnitTest.dll
