@@ -4,7 +4,7 @@ namespace Lesson90_MongoDb.MongoFunctions;
 
 public class InsertDataCompany
 {
-    public static void InsertCompany(IMongoCollection<Company> companies)
+    public static async Task InsertAsync(IMongoCollection<Company> companies)
     {
         var company = new Company
         {
@@ -32,6 +32,6 @@ public class InsertDataCompany
             }
         };
 
-        companies.InsertOne(company);
+        await companies.InsertOneAsync(company);
     }
 }

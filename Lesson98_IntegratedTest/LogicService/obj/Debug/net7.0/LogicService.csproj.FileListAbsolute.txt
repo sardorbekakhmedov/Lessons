@@ -1,0 +1,12 @@
+C:\C#\Lessons\Lesson98_IntegratedTest\LogicService\bin\Debug\net7.0\LogicService.deps.json
+C:\C#\Lessons\Lesson98_IntegratedTest\LogicService\bin\Debug\net7.0\LogicService.dll
+C:\C#\Lessons\Lesson98_IntegratedTest\LogicService\bin\Debug\net7.0\LogicService.pdb
+C:\C#\Lessons\Lesson98_IntegratedTest\LogicService\obj\Debug\net7.0\LogicService.csproj.AssemblyReference.cache
+C:\C#\Lessons\Lesson98_IntegratedTest\LogicService\obj\Debug\net7.0\LogicService.GeneratedMSBuildEditorConfig.editorconfig
+C:\C#\Lessons\Lesson98_IntegratedTest\LogicService\obj\Debug\net7.0\LogicService.AssemblyInfoInputs.cache
+C:\C#\Lessons\Lesson98_IntegratedTest\LogicService\obj\Debug\net7.0\LogicService.AssemblyInfo.cs
+C:\C#\Lessons\Lesson98_IntegratedTest\LogicService\obj\Debug\net7.0\LogicService.csproj.CoreCompileInputs.cache
+C:\C#\Lessons\Lesson98_IntegratedTest\LogicService\obj\Debug\net7.0\LogicService.dll
+C:\C#\Lessons\Lesson98_IntegratedTest\LogicService\obj\Debug\net7.0\refint\LogicService.dll
+C:\C#\Lessons\Lesson98_IntegratedTest\LogicService\obj\Debug\net7.0\LogicService.pdb
+C:\C#\Lessons\Lesson98_IntegratedTest\LogicService\obj\Debug\net7.0\ref\LogicService.dll

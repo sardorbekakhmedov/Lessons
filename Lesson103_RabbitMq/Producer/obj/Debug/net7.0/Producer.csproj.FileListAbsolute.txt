@@ -1,0 +1,17 @@
+C:\C#\Lessons\Lesson103_RabbitMq\Producer\bin\Debug\net7.0\Producer.exe
+C:\C#\Lessons\Lesson103_RabbitMq\Producer\bin\Debug\net7.0\Producer.deps.json
+C:\C#\Lessons\Lesson103_RabbitMq\Producer\bin\Debug\net7.0\Producer.runtimeconfig.json
+C:\C#\Lessons\Lesson103_RabbitMq\Producer\bin\Debug\net7.0\Producer.dll
+C:\C#\Lessons\Lesson103_RabbitMq\Producer\bin\Debug\net7.0\Producer.pdb
+C:\C#\Lessons\Lesson103_RabbitMq\Producer\bin\Debug\net7.0\RabbitMQ.Client.dll
+C:\C#\Lessons\Lesson103_RabbitMq\Producer\obj\Debug\net7.0\Producer.csproj.AssemblyReference.cache
+C:\C#\Lessons\Lesson103_RabbitMq\Producer\obj\Debug\net7.0\Producer.GeneratedMSBuildEditorConfig.editorconfig
+C:\C#\Lessons\Lesson103_RabbitMq\Producer\obj\Debug\net7.0\Producer.AssemblyInfoInputs.cache
+C:\C#\Lessons\Lesson103_RabbitMq\Producer\obj\Debug\net7.0\Producer.AssemblyInfo.cs
+C:\C#\Lessons\Lesson103_RabbitMq\Producer\obj\Debug\net7.0\Producer.csproj.CoreCompileInputs.cache
+C:\C#\Lessons\Lesson103_RabbitMq\Producer\obj\Debug\net7.0\Producer.csproj.CopyComplete
+C:\C#\Lessons\Lesson103_RabbitMq\Producer\obj\Debug\net7.0\Producer.dll
+C:\C#\Lessons\Lesson103_RabbitMq\Producer\obj\Debug\net7.0\refint\Producer.dll
+C:\C#\Lessons\Lesson103_RabbitMq\Producer\obj\Debug\net7.0\Producer.pdb
+C:\C#\Lessons\Lesson103_RabbitMq\Producer\obj\Debug\net7.0\Producer.genruntimeconfig.cache
+C:\C#\Lessons\Lesson103_RabbitMq\Producer\obj\Debug\net7.0\ref\Producer.dll

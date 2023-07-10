@@ -1,0 +1,12 @@
+version: '3.7'
+
+services:
+  rabbit_mq:
+    image: rabbitmq:3-management
+    container_name: rabbitmq_container
+    ports:
+      - 5672:5672
+      - 15672:15672
+    volumes:
+      - ~/.docker-conf/rabbit_mq/data/:/var/lib/rabbitmq
+      - ~/.docker-conf/rabbit_mq/log/:/var/lib/rabbitmq
